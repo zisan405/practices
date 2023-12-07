@@ -1,0 +1,47 @@
+.flag{
+    width: 10px;
+    height: 10px;
+    padding: 500px;
+    background-color:white;
+    position: relative;
+}
+.green{
+    height: 200px;
+    width: 320px;
+    background-color: green;
+    position: absolute;
+    margin: auto;
+    top: 20px;
+    left: 50px;
+    
+}
+.red{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    margin: auto;
+    top: 40px;
+    left: 120px;
+    border-radius: 50%;
+}
+.wooden{
+    width: 10px;
+    height: 500px;
+    background-color: black;
+    top: 10px;
+    left: 50px;
+    margin: auto;
+    position: absolute;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.box{
+    width: 70px;
+    height: 40px;
+    background-color:rgb(139, 38, 38);
+    margin: auto;
+    top: 500px;
+    left: 20px;
+    position: absolute;
+}

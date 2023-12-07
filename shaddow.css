@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(0, 255, 204);
+    font-size: 50px;
+}
+.box{
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid rgb(147, 133, 133);
+    box-shadow: 5px 5px 5px rgb(109, 89, 89), -5px -5px 5px rgb(109, 89, 89);
+}
+.box img{
+    
+}
+.padding{
+    padding: 5000px;
+}

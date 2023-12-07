@@ -1,0 +1,24 @@
+img{
+    height: 300px;
+    width: 200px;
+}
+
+img:hover{
+    opacity: 0.6;
+}
+.box{
+    width: 400px;
+    height: 500px;
+    background: url(d1.jpeg) no-repeat center;
+    margin-top: s;
+}
+p{
+    color: black;
+    font-size: large;
+}
+
+.text p{
+    text-align: center;
+    margin-top: 00px;
+
+}

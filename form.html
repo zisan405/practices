@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Login page</title>
+        <meta charset="UTF-8">
+        <meta name="veiwport" content="device-width" initial-scal="1.0">
+
+    </head>
+    <h2>Resistration Form</h2>
+    <body>
+        <form>
+            <div>
+                <level for="fullname">Fullname: </level>
+                <input type="text" name="fullame" id="fullname" required>
+            </div><br>
+            <div>
+                <level for="email">Email: </level>
+                <input type="email" name="email" id="email"><br>
+            </div><br>
+            <div>
+                <level for="password">password: </level>
+                <input type="password" name="password" id="password">
+            </div><br>
+            <div>
+                <level for="birthdate">Date of Birth: </level>
+                <input type="date" name="birthdate" id="birthdate">
+            </div><br>
+            <div>
+                <level for="photo">Choose your Photo</level>
+                <input type="file" name="photo" id="photo">
+            </div><br>
+            <div>
+                <level for="gender">Gender</level>
+                <input type="radio" name="gender" id="gender" value="Male"> Male
+                <input type="radio" name="gender" id="gender" value="Female"> Female
+            </div><br>
+            <div>
+                <level for="religion">Religion: </level>
+                <input type="checkbox" name="religion" id="religion" value="Islam"> Islam
+                <input type="checkbox" name="religion" id="religion" value="Hindu">Hindu
+                <input type="checkbox" name="religion" id="religion" value="Others">Others
+
+            </div><br>
+            <div>
+                <level for="department">Department</level>
+                <select name="department">
+                    <option value="CSE" selected>CSE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="pharmacy">Parmecy</option>
+                </select>
+            </div><br>
+            <div>
+                <level for="comment">Comment: </level><br>
+                <textarea rows="5px" cols="20"></textarea>
+            </div><br>
+            <div>
+                <input type="submit">
+                <input type="reset">
+            </div>
+
+        </form>
+    </body>
+</html>

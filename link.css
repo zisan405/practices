@@ -1,0 +1,23 @@
+a{
+    color: red;
+    text-decoration: none;
+    background-color: rgb(216, 203, 215);
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 100px;
+    padding: 5px 5px 6px 6px;
+    
+}
+
+a:hover{
+
+    color: green;
+    background-color: white;
+    border: 3px solid red;
+    font-size: 100px;
+    
+}
+a:active{
+    font-size: 100px;
+    color: black;
+    background-color: chocolate;
+}
